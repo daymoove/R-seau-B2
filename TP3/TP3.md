@@ -89,11 +89,23 @@ success
 
 **🌞Ajouter les routes statiques nécessaires pour que john et marcel puissent se ping**
 
+John:
+
 ```
 [daymoove@John ~]$ sudo vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
 [...]
 
 10.3.1.11/24 via 10.3.1.254 dev enp0s3
+
+```
+
+Marcel :
+
+```
+[daymoove@Marcel ~]$ sudo vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
+[...]
+
+10.3.2.12/24 via 10.3.2.254 dev enp0s3
 
 ```
 
