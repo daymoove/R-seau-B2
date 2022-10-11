@@ -74,7 +74,7 @@ vider table arp :
 [daymoove@localhost ~]$ sudo ip neigh flush all
 ```
 
-[Arp]((./tp3_arp.pcapng))
+[Arp](./tp3_arp.pcapng)
 
 ## II. Routage
 
@@ -162,12 +162,16 @@ La machine John contact d'abord le routeur afin de pouvoir se connecter au resea
 Ecrivez, dans l'ordre, les échanges ARP qui ont eu lieu, puis le ping et le pong, je veux TOUTES les trames utiles pour l'échange :
 
 |ordre      |type trame |IP source   |MAC source       |IP destination|MAC destination|
+
 |   1       |ARP| 10.3.2.254 |08:00:27:1c:1f:9b| 10.3.2.12    |08:00:27:7f:f8:3e| 
+
 |   2       |ARP| 10.3.2.12  |08:00:27:7f:f8:3e|10.3.2.254    |08:00:27:1c:1f:9b|
+
 |   3       |ICMP      | 10.3.2.254 |08:00:27:1c:1f:9b|10.3.2.254    |08:00:27:7f:f8:3e|
+
 |   4       |ICMP      | 10.3.2.12  |08:00:27:7f:f8:3e|10.3.2.254    |08:00:27:1c:1f:9b|
 
-[Routage_Marcel]((./TP3_routage_marcel.pcap))
+[Routage_Marcel](./TP3_routage_marcel.pcap)
 
 ### 3. Accès internet
 
@@ -243,10 +247,12 @@ PING google.com (216.58.214.174) 56(84) bytes of data.
 **🌞Analyse de trames**
 
 |ordre| type trame| IP source | MAC source      | IP destination| MAC destination|
+
 | 1   | ICMP      |10.3.1.11  |08:00:27:5a:9c:1e|8.8.8.8        |08:00:27:6a:a4:23|
+
 | 2   | ICMP     |8.8.8.8    |08:00:27:6a:a4:23|10.3.1.11      |08:00:27:5a:9c:1e|
 
-[Routage_internet]((./TP3_routage_internet.pcap))
+[Routage_internet](./TP3_routage_internet.pcap)
 
 ## III. DHCP
 
@@ -425,4 +431,4 @@ PING google.com (142.250.179.78) 56(84) bytes of data.
 
 **🌞Analyse de trames**
 
-[dhcp]((./tp3_dhcp.pcap))
+[dhcp](./tp3_dhcp.pcap)
