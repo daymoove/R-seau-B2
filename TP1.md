@@ -1,6 +1,6 @@
 # TP1 : Mise en jambes
 
-Joseph SELVA B2B
+Joseph SELVA B2 B
 
 ## I. Exploration locale en solo
 
