@@ -1,7 +1,5 @@
 # TP1 : Mise en jambes
 
-Joseph SELVA B2 B
-
 ## I. Exploration locale en solo
 
 ### 1. Affichage d'informations sur la pile TCP/IP locale
